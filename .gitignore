@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.ipynb_checkpoints/
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Projeto - Dados Pesados (Dataset e Metadados)
+# Nós não queremos subir o dataset de imagens e o CSV para o GitHub
+data/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/
+data/kidneyData.csv
+
+# Projeto - MLflow (Logs de Experimentos)
+mlruns/
+mlflow.db
+
+# Projeto - Modelos Treinados
+modelos/
+*.h5
+*.keras
